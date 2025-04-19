@@ -1,0 +1,27 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.data{
+    width: 70vw;
+    margin: 5vh 0;
+}
+.data > p{
+    font-size: 2em;
+}
+.plantInfo{
+    font-size: 1.75rem;
+    margin-top: 3vh;
+}
+.chart{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: underline;
+}
